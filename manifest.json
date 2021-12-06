@@ -1,0 +1,15 @@
+{
+  "name": "OnMap Chrome Extension",
+  "description": "Extension to search any selected string on Google Maps",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "onMap.js"
+  },
+  "permissions": ["tabs", "storage", "contextMenus"],
+  "icons": {
+    "16": "map-icon-16.png",
+    "48": "map-icon-48.png",
+    "128": "map-icon-128.png"
+  }
+}
